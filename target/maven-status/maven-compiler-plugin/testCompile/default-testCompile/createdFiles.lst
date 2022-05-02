@@ -1,0 +1,3 @@
+test\AddCategoryAndValidateTest.class
+test\UserShouldNotBeAbleToAddDuplicateCategoryTest.class
+test\ValidateMonthDropDownContainsAllMonths.class

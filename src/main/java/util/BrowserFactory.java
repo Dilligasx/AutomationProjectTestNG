@@ -7,13 +7,9 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-
 import page.Techfios101Page;
+@SuppressWarnings("unused")
+
 public class BrowserFactory{
 
 	static WebDriver driver;
@@ -21,7 +17,7 @@ public class BrowserFactory{
 	static String url;
 
 	
-	@BeforeTest
+	
 	public static WebDriver init() {
 		System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
@@ -34,7 +30,7 @@ public class BrowserFactory{
 		return driver;	
 	}
 	
-	@AfterMethod
+	
 	public void tearDown() {
 		driver.close();
 		driver.quit();
