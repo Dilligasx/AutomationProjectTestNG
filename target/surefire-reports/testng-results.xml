@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="5043" started-at="2022-05-02T21:15:20Z" finished-at="2022-05-02T21:15:25Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5043" started-at="2022-05-02T21:15:20Z" finished-at="2022-05-02T21:15:25Z">
+      <class name="test.UserShouldNotBeAbleToAddDuplicateCategoryTest">
+        <test-method status="PASS" signature="createCategoryAndValidateDuplicateCategoryShouldNotBePermitted()[pri:0, instance:test.UserShouldNotBeAbleToAddDuplicateCategoryTest@69d9c55]" name="createCategoryAndValidateDuplicateCategoryShouldNotBePermitted" duration-ms="2180" started-at="2022-05-02T21:15:23Z" finished-at="2022-05-02T21:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCategoryAndValidateDuplicateCategoryShouldNotBePermitted -->
+      </class> <!-- test.UserShouldNotBeAbleToAddDuplicateCategoryTest -->
+      <class name="test.AddCategoryAndValidateTest">
+        <test-method status="PASS" signature="addCategoryAndValidate()[pri:0, instance:test.AddCategoryAndValidateTest@7f560810]" name="addCategoryAndValidate" duration-ms="2849" started-at="2022-05-02T21:15:20Z" finished-at="2022-05-02T21:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategoryAndValidate -->
+      </class> <!-- test.AddCategoryAndValidateTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

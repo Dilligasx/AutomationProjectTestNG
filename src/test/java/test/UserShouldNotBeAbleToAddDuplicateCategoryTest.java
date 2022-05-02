@@ -25,6 +25,6 @@ public class UserShouldNotBeAbleToAddDuplicateCategoryTest {
 		techfiosPage.validateDuplicateWarningPage();
 		techfiosPage.removeDuplicateCategory();
 		
-		driver.quit();
+		driver.close();
 	}
 }

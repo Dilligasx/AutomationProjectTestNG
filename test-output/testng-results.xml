@@ -2,24 +2,30 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8259" started-at="2022-05-02T14:25:17 CDT" finished-at="2022-05-02T14:25:25 CDT">
+  <suite name="Default suite" duration-ms="7896" started-at="2022-05-02T15:59:06 CDT" finished-at="2022-05-02T15:59:14 CDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8259" started-at="2022-05-02T14:25:17 CDT" finished-at="2022-05-02T14:25:25 CDT">
+    <test name="Default test" duration-ms="7896" started-at="2022-05-02T15:59:06 CDT" finished-at="2022-05-02T15:59:14 CDT">
+      <class name="util.BrowserFactory">
+        <test-method status="PASS" signature="init()[pri:0, instance:util.BrowserFactory@8e24743]" name="init" is-config="true" duration-ms="2192" started-at="2022-05-02T15:59:06 CDT" finished-at="2022-05-02T15:59:08 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+      </class> <!-- util.BrowserFactory -->
       <class name="test.ValidateMonthDropDownContainsAllMonths">
-        <test-method status="PASS" signature="validateMonthDropDown()[pri:0, instance:test.ValidateMonthDropDownContainsAllMonths@5ed828d]" name="validateMonthDropDown" duration-ms="2870" started-at="2022-05-02T14:25:17 CDT" finished-at="2022-05-02T14:25:20 CDT">
+        <test-method status="PASS" signature="validateMonthDropDown()[pri:0, instance:test.ValidateMonthDropDownContainsAllMonths@3891771e]" name="validateMonthDropDown" duration-ms="1515" started-at="2022-05-02T15:59:08 CDT" finished-at="2022-05-02T15:59:10 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateMonthDropDown -->
       </class> <!-- test.ValidateMonthDropDownContainsAllMonths -->
       <class name="test.UserShouldNotBeAbleToAddDuplicateCategoryTest">
-        <test-method status="PASS" signature="createCategoryAndValidateDuplicateCategoryShouldNotBePermitted()[pri:0, instance:test.UserShouldNotBeAbleToAddDuplicateCategoryTest@87f383f]" name="createCategoryAndValidateDuplicateCategoryShouldNotBePermitted" duration-ms="2750" started-at="2022-05-02T14:25:20 CDT" finished-at="2022-05-02T14:25:22 CDT">
+        <test-method status="PASS" signature="createCategoryAndValidateDuplicateCategoryShouldNotBePermitted()[pri:0, instance:test.UserShouldNotBeAbleToAddDuplicateCategoryTest@78ac1102]" name="createCategoryAndValidateDuplicateCategoryShouldNotBePermitted" duration-ms="2170" started-at="2022-05-02T15:59:10 CDT" finished-at="2022-05-02T15:59:12 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createCategoryAndValidateDuplicateCategoryShouldNotBePermitted -->
       </class> <!-- test.UserShouldNotBeAbleToAddDuplicateCategoryTest -->
       <class name="test.AddCategoryAndValidateTest">
-        <test-method status="PASS" signature="addCategoryAndValidate()[pri:0, instance:test.AddCategoryAndValidateTest@4eb7f003]" name="addCategoryAndValidate" duration-ms="2617" started-at="2022-05-02T14:25:22 CDT" finished-at="2022-05-02T14:25:25 CDT">
+        <test-method status="PASS" signature="addCategoryAndValidate()[pri:0, instance:test.AddCategoryAndValidateTest@2de8284b]" name="addCategoryAndValidate" duration-ms="2000" started-at="2022-05-02T15:59:12 CDT" finished-at="2022-05-02T15:59:14 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCategoryAndValidate -->

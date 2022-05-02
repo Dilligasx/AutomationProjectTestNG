@@ -22,6 +22,6 @@ public class ValidateMonthDropDownContainsAllMonths {
 		
 		techfiosPage.selectDropdownAndValidateAllMonths();
 		
-		driver.quit();
+		driver.close();
 	}
 }

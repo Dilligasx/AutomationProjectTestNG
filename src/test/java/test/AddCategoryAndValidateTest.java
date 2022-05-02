@@ -23,6 +23,6 @@ public class AddCategoryAndValidateTest {
 		techfiosPage.createNewCategory();
 		techfiosPage.validateCreatedCategoryAndRemove();
 		
-		driver.quit();
+		driver.close();
 	}
 }
